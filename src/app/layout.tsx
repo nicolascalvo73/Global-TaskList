@@ -17,8 +17,8 @@ const Layout: FC<{ children: React.ReactNode }> = ({ children }) => {
 					name="og:description"
 					content="Gestiona y organiza tus tareas de manera eficiente con la Task List. Edita y realiza un seguimiento de tus tareas con facilidad. Hecho con 💚."
 				/>
-				<meta property="og:image" content="https://example.com/path/to/your-image.jpg" />
-				<meta property="og:url" content="https://example.com/your-page-url" />
+				<meta property="og:image" content="https://challenge-task-list.vercel.app/" />
+				<meta property="og:url" content="../../public/img/logo-17144295441.jpg" />
 				<meta property="og:type" content="website" />
 			</head>
 
