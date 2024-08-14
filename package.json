@@ -6,7 +6,10 @@
 		"dev": "next dev",
 		"build": "next build",
 		"start": "next start",
-		"lint": "next lint"
+		"lint": "next lint",
+		"dev-docker": "docker-compose -f docker-compose-dev.yml up -d --build",
+		"prod-docker": "docker-compose -f docker-compose-prod.yml up -d --build",
+		"stop-docker": "docker-compose down"
 	},
 	"dependencies": {
 		"@chakra-ui/icons": "^2.1.1",

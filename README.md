@@ -1,36 +1,30 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+![LOGO ATC](/public/img/logo-17144295441.jpg)
 
-## Getting Started
+Me pidieron que cree un componente `TaskList` para una aplicación de gestión de tareas. 📝✨
+El componente debe mostrar una lista de tareas, permitir marcarlas como completadas ✅, y ofrecer filtros y opciones para ordenarlas alfabéticamente 🔠 o por fecha 📅.
+Además, debería tener un estilo básico que sea visualmente atractivo y una interfaz intuitiva. 🎨👌
+Usando el estado local para manejar las tareas y seguir buenas prácticas de desarrollo en React. 🧩🚀
+¡Divertido para mostrar mis habilidades en React! 😄🚀
+Puede que me haya entusiasmado un poco...
 
-First, run the development server:
+Te gana la ansiedark?!?!? [Aqui el deploy](https://challenge-task-list.vercel.app/)
+
+La app también se puede levantar en Docker con comandos simples como
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm run dev-docker
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+para desarrollo en el puerto [3000](http://localhost:3000/)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+npm run prod-docker
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+para producción en el puerto [8080](http://localhost:8080/)
 
-## Learn More
+¡En este proyecto Task List he usado Next.js 14.2.5 para manejar el frontend con React 18 y darle estilo con Chakra UI y Framer Motion! 🌟
+Para las hojas de cálculo, xlsx es el héroe, y TypeScript junto con ESLint aseguran que todo esté limpio y sin errores. 🧹
+¡Docker nos ayuda a mantener todo en orden en desarrollo y producción! 🚢
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+🚀 [Hablamos?](https://nicocalvo.vercel.app/) 🚀
