@@ -15,7 +15,7 @@ export const tasks: Task[] = [
 		title: 'Revisar manuscrito',
 		description: 'Revisar el manuscrito para la nueva novela de fantasía.',
 		completed: true,
-		dueDate: new Date('2024-08-14'),
+		dueDate: new Date('2024-08-15'),
 		executor: { id: 1, name: 'Jorge Luis Borges' },
 		priority: true,
 	},

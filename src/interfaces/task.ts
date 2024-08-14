@@ -6,6 +6,6 @@ export interface Task {
 	description: string
 	completed: boolean
 	dueDate: Date
-	executor: Executor
+	executor: Executor | null
 	priority: boolean
 }
