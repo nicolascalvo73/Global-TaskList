@@ -247,7 +247,7 @@ const DataTable: React.FC<DataTableProps> = ({
 				<Table variant="striped">
 					<TableCaption>Lista de Tareas a completar</TableCaption>
 					<Thead>
-						<Tr alignItems={'center'} bg={colorMode === 'light' ? 'gray.400' : 'gray.800'}>
+						<Tr alignItems={'center'} bg={colorMode === 'light' ? 'gray.400' : 'gray.600'}>
 							{isDesktop && <Th></Th>}
 							<Th onClick={() => handleSort('title')} cursor="pointer">
 								Título
@@ -294,7 +294,7 @@ const DataTable: React.FC<DataTableProps> = ({
 								color={
 									colorMode === 'light'
 										? task.completed
-											? 'gray.200'
+											? 'gray.400'
 											: ''
 										: task.completed
 										? 'gray.600'
